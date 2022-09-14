@@ -19,6 +19,7 @@
         <mapstruct-processor.version>1.5.2.Final</mapstruct-processor.version>
         <mapstruct.version>1.5.2.Final</mapstruct.version>
         <springdoc-openapi-ui.version>1.6.11</springdoc-openapi-ui.version>
+        <junit-vintage-engine.version>5.9.0</junit-vintage-engine.version>
     </properties>
     <dependencies>
         <dependency>
@@ -68,6 +69,17 @@
             <groupId>org.springdoc</groupId>
             <artifactId>springdoc-openapi-ui</artifactId>
             <version>${springdoc-openapi-ui.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.vintage</groupId>
+            <artifactId>junit-vintage-engine</artifactId>
+            <version>${junit-vintage-engine.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
