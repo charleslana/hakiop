@@ -1,0 +1,115 @@
+{
+    "app": {
+        "version": "1.0.0",
+        "news": [
+            {
+                "id": 1,
+                "title": "",
+                "description": "",
+                "creationDate": ""
+            }
+        ]
+    },
+    "characters": [
+        {
+            "id": 1,
+            "name": "Monkey D. Luffy",
+            "image": "",
+            "category": "Pirata",
+            "age": 19,
+            "origin": "East Blue",
+            "organization": null,
+            "residence": "Vila Foosha",
+            "bounty": 3000000000,
+            "status": "Vivo",
+            "fruits": [
+                {
+                    "id": 1,
+                    "name": "Gomu Gomu no Mi",
+                    "image": "",
+                    "type": "Paramecia"
+                }
+            ],
+            "haki": [
+                {
+                    "name": "Haki de Observação",
+                    "image": ""
+                },
+                {
+                    "name": "Haki de Armamento",
+                    "image": ""
+                },
+                {
+                    "name": "Haki do Conquistador",
+                    "image": ""
+                }
+            ],
+            "crew": {
+                "id": 1,
+                "name": "Piratas do Chapéu de Palha",
+                "image": "",
+                "members": [
+                    {
+                        "name": "Monkey D. Luffy",
+                        "image": "",
+                        "role": "Capitão"
+                    }
+                ]
+            },
+            "affiliations": [],
+            "abilities": [
+                {
+                    "id": 1,
+                    "name": "",
+                    "image": ""
+                }
+            ],
+            "weapons": []
+        }
+    ],
+    "fruits": [
+        {
+            "id": 1,
+            "name": "Gomu Gomu no Mi",
+            "image": "",
+            "type": "Paramecia",
+            "owner": "Monkey D. Luffy"
+        }
+    ],
+    "weapons": [
+        {
+            "id": 1,
+            "name": "Yoru",
+            "image": "",
+            "owner": "Dracule Mihawk"
+        }
+    ],
+    "crews": [
+        {
+            "id": 1,
+            "name": "Piratas do Chapéu de Palha",
+            "image": "",
+            "members": [
+                {
+                    "name": "Monkey D. Luffy",
+                    "image": "",
+                    "role": "Capitão"
+                }
+            ]
+        }
+    ],
+    "maps": [
+        {
+            "id": 1,
+            "name": "",
+            "image": ""
+        }
+    ],
+    "seasKings": [
+        {
+            "id": 1,
+            "name": "Senhor da Costa",
+            "image": ""
+        }
+    ]
+}
